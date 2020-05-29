@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.top {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #DAEAF7), color-stop(31.12%, rgba(152, 195, 232, 0)));
+  background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  min-height: 376px;
+}
+
+.header__topline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.header__content {
+  width: 100%;
+}
+
+.header__content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__title {
+  margin: 12px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #1f3f68;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.header__text {
+  font-size: 16px;
+  color: #1f3f68;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 26px;
+  opacity: 60%;
+}
+
+.logo {
+  height: 38px;
+}
+
+.logo__link {
+  padding: 8px 0;
+  display: inline-block;
+}
+
+.logo_header {
+  margin: 16px;
+}
+
+.address-book {
+  height: 38px;
+  margin: 21px;
+  justify-self: flex-end;
+}
+
+.address-book__link {
+  display: inline-block;
+}
+
+.button {
+  margin: 32px;
+  padding: 5px 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 20px;
+  background-color: #5A98D0;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.content {
+  padding: 48px 20px;
+}
+
+.content__title {
+  color: #000000;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

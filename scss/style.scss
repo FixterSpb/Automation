@@ -1,0 +1,111 @@
+@import "colors";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.top {
+    flex-grow: 1;
+}
+
+.header {
+    background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    min-height: 376px;
+
+    &__topline {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__content {
+        width: 100%;
+    }
+
+    &__content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__title {
+        margin: 12px;
+        font-size: 32px;
+        font-weight: 300;
+        color: $color-txt-header;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
+
+    &__text {
+        font-size: 16px;
+        color: $color-txt-header;
+        text-align: center;
+        letter-spacing: 0.05em;
+        line-height: 26px;
+        opacity: 60%;
+
+    }
+}
+
+.logo {
+    height: 38px;
+
+    &__link {
+        padding: 8px 0;
+        display: inline-block;
+    }
+
+    &_header {
+        margin: 16px;
+    }
+}
+
+.address-book {
+    height: 38px;
+    margin: 21px;
+    justify-self: flex-end;
+
+    &__link {
+        display: inline-block;
+    }
+}
+
+.button {
+    margin: 32px;
+    padding: 5px 10px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: $color-button;
+    font-size: 12px;
+    color: $color_background;
+}
+
+.content {
+    padding: 48px 20px;
+
+    &__title {
+        color: $color-txt-def;
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+    }
+}
