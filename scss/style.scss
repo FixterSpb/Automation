@@ -99,13 +99,148 @@ a {
     color: $color_background;
 }
 
+.row {
+    justify-content: space-around;
+}
+
 .content {
     padding: 48px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__header {
+        width: 100%;
+    }
 
     &__title {
+
         color: $color-txt-def;
         font-weight: 300;
         font-size: 24px;
         text-align: center;
     }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        max-width: 358px;
+        box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 32px;
+        padding: 10px 30px;
+    }
+
+    &__img {
+        width: 240px;
+        height: 200px;
+        margin: 13px auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        &_1 {
+            background-position-x: 10px;
+            background-image: url("../img/content_1.png");
+        }
+
+        &_2 {
+            background-image: url("../img/content_2.1.png"), url("../img/content_2.2.png");
+        }
+
+        &_3 {
+            background-position-x: 25px;
+            background-image: url("../img/content_3.png");
+        }
+    }
+
+    &__name {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+    }
+
+    &__text {
+        margin: 14px 0;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+        opacity: 0.6;
+    }
+
+    &__link {
+        justify-self: flex-end;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #5A98D0;
+    }
+}
+
+.projects {
+    padding: 32px 14px;
+
+    &__title {
+        margin: 32px 0;
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__text {
+        margin-bottom: 82px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #222222;
+    }
+
+
+    &__name {
+        position: absolute;
+        font-weight: normal;
+        top: 16px;
+        left: 16px;
+        width: calc(100% - 32px);
+        text-align: left;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+
+        &_right {
+            text-align: right;
+        }
+    }
+
+    &__box {
+        width: 100%;
+        max-width: 1140px;
+        position: relative;
+        margin-bottom: 16px;
+
+        &_2 {
+
+            border-radius: 10px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    /*
+    &__name {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+
+        &_right {
+            right: 16px;
+        }
+    }
+*/
+
 }

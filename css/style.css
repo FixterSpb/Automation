@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,39 +13,24 @@ a {
 }
 
 .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .top {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 .header {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #DAEAF7), color-stop(31.12%, rgba(152, 195, 232, 0)));
   background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
   min-height: 376px;
 }
 
 .header__topline {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .header__content {
@@ -55,13 +39,8 @@ a {
 
 .header__content {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .header__title {
@@ -108,17 +87,26 @@ a {
 .button {
   margin: 32px;
   padding: 5px 10px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   border-radius: 20px;
   background-color: #5A98D0;
   font-size: 12px;
   color: #ffffff;
 }
 
+.row {
+  justify-content: space-around;
+}
+
 .content {
   padding: 48px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content__header {
+  width: 100%;
 }
 
 .content__title {
@@ -126,5 +114,124 @@ a {
   font-weight: 300;
   font-size: 24px;
   text-align: center;
+}
+
+.content__box {
+  display: flex;
+  flex-direction: column;
+  max-width: 358px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 10px 30px;
+}
+
+.content__img {
+  width: 240px;
+  height: 200px;
+  margin: 13px auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content__img_1 {
+  background-position-x: 10px;
+  background-image: url("../img/content_1.png");
+}
+
+.content__img_2 {
+  background-image: url("../img/content_2.1.png"), url("../img/content_2.2.png");
+}
+
+.content__img_3 {
+  background-position-x: 25px;
+  background-image: url("../img/content_3.png");
+}
+
+.content__name {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+.content__text {
+  margin: 14px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.content__link {
+  justify-self: flex-end;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+}
+
+.projects {
+  padding: 32px 14px;
+  /*
+    &__name {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+
+        &_right {
+            right: 16px;
+        }
+    }
+*/
+}
+
+.projects__title {
+  margin: 32px 0;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+}
+
+.projects__text {
+  margin-bottom: 82px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+
+.projects__name {
+  position: absolute;
+  font-weight: normal;
+  top: 16px;
+  left: 16px;
+  width: calc(100% - 32px);
+  text-align: left;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.projects__name_right {
+  text-align: right;
+}
+
+.projects__box {
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.projects__box_2 {
+  border-radius: 10px;
+}
+
+.projects__img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
