@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/style.css?ver=1.1">
+    <link rel="stylesheet" href="css/style.css?ver=1.2">
     <title>New automation</title>
 </head>
 
@@ -56,7 +56,10 @@
                 <div class="row center">
                     <article class="col-xl-4 col-lg-12">
                         <div class="content__box">
-                            <div class="content__img content__img_1"></div>
+                            <div class="content__img content__img_1">
+                                <div class="content__img content__img_1-1">
+                                </div>
+                            </div>
                             <h3 class="content__name">Make Your business To Be Better Famous In Internet</h3>
                             <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -66,7 +69,10 @@
 
                     <article class="col-xl-4 col-lg-12">
                         <div class="content__box">
-                            <div class="content__img content__img_2"></div>
+                            <div class="content__img content__img_2">
+                                <div class="content__img content__img_2-1">
+                                </div>
+                            </div>
                             <h3 class="content__name">Bring Technology To Your Comfrotable Home</h3>
                             <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -76,7 +82,10 @@
 
                     <article class="col-xl-4 col-lg-12">
                         <div class="content__box">
-                            <div class="content__img content__img_3"></div>
+                            <div class="content__img content__img_3">
+                                <div class="content__img content__img_3-1">
+                                </div>
+                            </div>
                             <h3 class="content__name">Make Your business To Be Better Famous In Internet</h3>
                             <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod
@@ -126,9 +135,77 @@
                 </div>
 
             </section>
-
         </div>
         <footer class="footer">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="footer__content">
+                            <h2 class="footer__title">
+                                Intersted to woek with our team?
+                            </h2>
+                            <p class="footer__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="col-4 footer__button">
+                        Let’s Talk
+                    </a>
+
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="footer__text-contacts">
+                                    1.
+                                </p>
+                            </div>
+                            <div class="col-11">
+                                <p class="footer__text-contacts">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="footer__text-contacts">
+                                    2.
+                                </p>
+                            </div>
+                            <div class="col-11">
+                                <p class="footer__text-contacts">
+                                    +62-812-7313-4321
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="footer__text-contacts">
+                                    3.
+                                </p>
+                            </div>
+                            <div class="col-11">
+                                <p class="footer__text-contacts">
+                                    hello@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copyright">
+                2020 &copy; All rights reserved.
+            </p>
         </footer>
     </div>
 </body>

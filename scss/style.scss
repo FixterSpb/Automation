@@ -16,8 +16,10 @@ a {
 
 
 .wrapper {
+    min-width: 320px;
+    padding: 0 calc(50% - 570px);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .top {
@@ -40,6 +42,7 @@ a {
     }
 
     &__content {
+        padding: 0 15px;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -133,24 +136,48 @@ a {
     }
 
     &__img {
-        width: 240px;
+        width: 100%;
         height: 200px;
         margin: 13px auto;
         background-repeat: no-repeat;
         background-position: center center;
+        position: relative;
 
         &_1 {
+
             background-position-x: 10px;
             background-image: url("../img/content_1.png");
         }
 
+        &_1-1 {
+            margin: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
         &_2 {
-            background-image: url("../img/content_2.1.png"), url("../img/content_2.2.png");
+            background-image: url("../img/content_2.1.png");
+        }
+
+        &_2-1 {
+            margin: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-image: url("../img/content_2.2.png");
         }
 
         &_3 {
             background-position-x: 25px;
             background-image: url("../img/content_3.png");
+        }
+
+        &_3-1 {
+            margin: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
         }
     }
 
@@ -202,7 +229,7 @@ a {
     &__name {
         position: absolute;
         font-weight: normal;
-        top: 16px;
+        top: 26px;
         left: 16px;
         width: calc(100% - 32px);
         text-align: left;
@@ -243,4 +270,78 @@ a {
     }
 */
 
+}
+
+.footer {
+    padding: 18px 16px;
+    background-color: $color_footer-bg;
+
+    &__top {
+        border-bottom: 1px solid rgba($color: $color_background, $alpha: 0.4);
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        width: 65%;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        font-weight: 300;
+        color: $color_background;
+    }
+
+    &__text {
+        font-size: 16px;
+        margin-top: 32px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: $color_background;
+        opacity: 0.6;
+    }
+
+    &__button {
+        margin: 40px auto;
+        font-size: 16px;
+        line-height: 26px;
+        // display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: $color_background;
+        background-color: $color_button;
+        padding: 10px 10px;
+    }
+
+    &__contacts {
+        margin: 32px 0;
+
+    }
+
+    &__text-contacts {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        color: $color_background;
+        margin: 8.5px 0;
+    }
+
+    &__copyright {
+        margin-top: 23px;
+        margin-bottom: 14px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: $color_background;
+        opacity: 0.4;
+    }
 }
