@@ -7,23 +7,25 @@
     }
 
     &__title {
-        margin-top: 112px;
+        margin-top: 118px;
         margin-left: 0;
         text-align: left;
         font-size: 64px;
+        line-height: 74px;
         letter-spacing: 0.04em;
     }
 
     &__img {
         width: 336px;
-        height: 292.13px;
-        background-image: url("../img/hero.png");
-        bottom: 60px;
+        height: 299px;
+        background-image: url(../img/hero.png);
+        bottom: 64px;
+        right: -3px;
     }
 
     &__text {
         width: 425px;
-        margin-top: 32px;
+        margin-top: 19px;
         text-align: left;
     }
 
@@ -32,10 +34,11 @@
 .button {
     align-self: flex-start;
     margin: 0;
-    margin-top: 72px;
-    margin-bottom: 143px;
-    padding: 15px 50px;
+    margin-top: 76px;
+    margin-bottom: 144px;
+    padding: 18px 49px;
     font-size: 16px;
+    letter-spacing: 0.04em;
 }
 
 .content {
@@ -67,12 +70,74 @@
         line-height: 46px;
         top: 19px;
         left: 19px;
+        letter-spacing: 0.05em;
 
         &_right {
             font-size: 32px;
-            right: 64px;
+            right: 57px;
             left: auto;
             top: 64px;
+
         }
+    }
+
+    &__box {
+        margin-bottom: 28px;
+    }
+}
+
+.footer {
+    &__top {
+        padding: 47px 109px;
+        flex-direction: row;
+    }
+
+    &__content {
+        width: 63%;
+    }
+
+    &__title {
+        width: 100%;
+        text-align: left;
+        font-size: 36px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+
+        margin-left: 32px;
+    }
+
+    &__text {
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 21px;
+        /* margin-right: 33px; */
+        margin-left: 15px;
+    }
+
+    &__button {
+        align-self: flex-start;
+        margin-top: 113px;
+        margin-left: 56px;
+        width: 132px;
+    }
+
+    &__contacts {
+        padding: 48px 124px;
+    }
+
+    // &__box {}
+
+    &__text-contacts {
+        margin: 12px 0px;
+        margin-right: 36px;
+
+        &_last {
+            margin-right: 0;
+        }
+    }
+
+    &__copyright {
+        padding: 0 0 64px 124px;
+        text-align: left;
     }
 }

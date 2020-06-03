@@ -29,9 +29,7 @@
                 </div>
                 <div class="header__content">
 
-                    <div class="header__img">
 
-                    </div>
                     <h1 class="header__title">
                         New Automation<br>
                         Tool for Your
@@ -47,13 +45,17 @@
                         See Our Project
                     </a>
 
+                    <div class="header__img">
+
+                    </div>
+
                 </div>
             </header>
 
             <section class="content">
                 <header class="content__header">
                     <h2 class="content__title">
-                        What we do to help our client grow in digital eraz
+                        What we do to help our client grow in digital era
                     </h2>
                 </header>
 
@@ -90,10 +92,10 @@
                                 <div class="content__img content__img_3-1">
                                 </div>
                             </div>
-                            <h3 class="content__name">Make Your business To Be Better Famous In Internet</h3>
+                            <h3 class="content__name">Build Your Digital Product
+                                That Suitable For Your Need</h3>
                             <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. </p>
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <a href="#" class="content__link">Learn more <img src="img/arrow.png" alt="icon"></a>
                         </div>
                     </article>
@@ -142,73 +144,53 @@
         </div>
         <footer class="footer">
             <div class="footer__top">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="footer__content">
-                            <h2 class="footer__title">
-                                Intersted to woek with our team?
-                            </h2>
-                            <p class="footer__text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                            </p>
-                        </div>
-                    </div>
 
-                    <a href="#" class="col-4 footer__button">
-                        Let’s Talk
-                    </a>
-
+                <div class="footer__content">
+                    <h2 class="footer__title">
+                        Intersted to woek with our team?
+                    </h2>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
                 </div>
+
+                <a href="#" class="footer__button">
+                    Let’s Talk
+                </a>
+
             </div>
             <div class="footer__contacts">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-1">
-                                <p class="footer__text-contacts">
-                                    1.
-                                </p>
-                            </div>
-                            <div class="col-11">
-                                <p class="footer__text-contacts">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-1">
-                                <p class="footer__text-contacts">
-                                    2.
-                                </p>
-                            </div>
-                            <div class="col-11">
-                                <p class="footer__text-contacts">
-                                    +62-812-7313-4321
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-1">
-                                <p class="footer__text-contacts">
-                                    3.
-                                </p>
-                            </div>
-                            <div class="col-11">
-                                <p class="footer__text-contacts">
-                                    hello@gmail.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="footer__box">
+                    <p class="footer__text-contacts">
+                        A.
+                    </p>
+
+                    <p class="footer__text-contacts  footer__text-contacts_last">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
                 </div>
+                <div class="footer__box">
+                    <p class="footer__text-contacts">
+                        T.
+                    </p>
+
+                    <p class="footer__text-contacts  footer__text-contacts_last">
+                        +62-812-7313-4321
+                    </p>
+                </div>
+                <div class="footer__box">
+                    <p class="footer__text-contacts">
+                        E.
+                    </p>
+                    <p class="footer__text-contacts footer__text-contacts_last">
+                        hello@gmail.com
+                    </p>
+                </div>
+
             </div>
             <p class="footer__copyright">
-                2020 &copy; All rights reserved.
+                2020 &copy; <span class="footer__afrianska"></span> All rights reserved.
             </p>
         </footer>
     </div>
