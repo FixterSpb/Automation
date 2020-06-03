@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/style.css?ver=1.2">
+    <link rel="stylesheet" href="css/style.css?ver=1.5">
     <title>New automation</title>
 </head>
 
@@ -28,6 +28,10 @@
                     </div>
                 </div>
                 <div class="header__content">
+
+                    <div class="header__img">
+
+                    </div>
                     <h1 class="header__title">
                         New Automation<br>
                         Tool for Your
@@ -139,7 +143,7 @@
         <footer class="footer">
             <div class="footer__top">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-md-6 col-sm-12">
                         <div class="footer__content">
                             <h2 class="footer__title">
                                 Intersted to woek with our team?

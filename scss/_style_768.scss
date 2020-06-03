@@ -1,0 +1,78 @@
+.header {
+    padding: 47px 32px;
+    padding-right: 34.56px;
+
+    &__content {
+        padding: 0;
+    }
+
+    &__title {
+        margin-top: 112px;
+        margin-left: 0;
+        text-align: left;
+        font-size: 64px;
+        letter-spacing: 0.04em;
+    }
+
+    &__img {
+        width: 336px;
+        height: 292.13px;
+        background-image: url("../img/hero.png");
+        bottom: 60px;
+    }
+
+    &__text {
+        width: 425px;
+        margin-top: 32px;
+        text-align: left;
+    }
+
+}
+
+.button {
+    align-self: flex-start;
+    margin: 0;
+    margin-top: 72px;
+    margin-bottom: 143px;
+    padding: 15px 50px;
+    font-size: 16px;
+}
+
+.content {
+    padding: 64px 32px;
+
+    &__title {
+        font-size: 36px;
+        letter-spacing: 0.05em;
+        margin-bottom: 32px;
+    }
+}
+
+.projects {
+    padding: 64px 32px;
+
+    &__title {
+        font-size: 36px;
+
+    }
+
+    &__text {
+        margin: 32px auto;
+        margin-bottom: 64px;
+        width: 75%;
+    }
+
+    &__name {
+        font-size: 28px;
+        line-height: 46px;
+        top: 19px;
+        left: 19px;
+
+        &_right {
+            font-size: 32px;
+            right: 64px;
+            left: auto;
+            top: 64px;
+        }
+    }
+}
