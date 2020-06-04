@@ -11,7 +11,7 @@
             </p>
         </div>
 
-        <a href="#" class="footer__button">
+        <a href="contacts.php" class="footer__button">
             Let’s Talk
         </a>
 

@@ -3,5 +3,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/bootstrap-grid.css">
-<link rel="stylesheet" href="css/style.css?ver=1.6">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css?ver=1.10">
 <title>New automation</title>

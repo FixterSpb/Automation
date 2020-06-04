@@ -18,7 +18,7 @@
                         </a>
                     </div>
                     <div class="address-book">
-                        <a href="#" class="address-book__link">
+                        <a href="contacts.php" class="address-book__link">
                             <img src="img/address_book.png" alt="icon" class="address-book__img">
                         </a>
                     </div>
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div class="projects__box">
+                        <div class="projects__box projects__box_3">
                             <img src="img/project_3.png" alt="project" class="projects__img">
                             <h3 class="projects__name">
                                 Car-Rapetition App

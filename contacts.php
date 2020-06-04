@@ -34,23 +34,53 @@
                 </div>
             </header>
 
-            <div class="content">
-                <div class="content__img">
+            <div class="container-contacts">
+
+                <div class="content-contacts">
+                    <div class="content-contacts__img">
+                    </div>
+                    <div class="content-contacts__box">
+                        <h2 class="content-contacts__title">ADDRESS</h2>
+                        <p class="content-contacts__text">Id convallis placerat sit sed duis id amet volutpat quam a,
+                            pharetra.</p>
+                    </div>
+                    <div class="content-contacts__box">
+                        <h2 class="content-contacts__title">PHONE</h2>
+                        <p class="content-contacts__text"><i class="fa fa-phone content-contacts__icon"
+                                aria-hidden="true"></i>+62-812-7313-4321</p>
+                        <p class="content-contacts__text"><i class="fa fa-phone content-contacts__icon"
+                                aria-hidden="true"></i>+62-817-000-1234</p>
+                    </div>
+                    <div class="content-contacts__box">
+                        <h2 class="content-contacts__title">ONLINE SERVICE</h2>
+                        <p class="content-contacts__text">
+                            <i class="fa fa-globe content-contacts__icon" aria-hidden="true"></i>
+
+                            www.afrianska.com</p>
+                        <p class="content-contacts__text"><i class="fa fa-envelope content-contacts__icon"
+                                aria-hidden="true"></i>hello.afrian@gmail.com</p>
+                    </div>
                 </div>
-                <div class="content__box">
-                    <h2 class="content__title">ADDRESS</h2>
-                    <p class="contant__text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
-                </div>
-                <div class="content__box">
-                    <h2 class="content__title">PHONE</h2>
-                    <p class="contant__text">+62-812-7313-4321</p>
-                    <p class="contant__text">+62-817-000-1234</p>
-                </div>
-                <div class="content__box">
-                    <h2 class="content__title">ONLINE SERVICE</h2>
-                    <p class="contant__text">www.afrianska.com</p>
-                    <p class="contant__text">hello.afrian@gmail.com</p>
-                </div>
+
+                <form action="#" class="form-contacts">
+                    <h2 class="form-contacts__title">SEND US MESSAGE</h2>
+                    <label for="full_name" class="form-contacts__label">Full Name</label>
+                    <input type="text" name="full_name" id="full_name" class="form-contacts__input"
+                        placeholder="Your Name">
+                    <label for="email" class="form-contacts__label">Email</label>
+                    <input type="text" name="email" id="email" class="form-contacts__input" placeholder="Your Email">
+                    <label for="message" class="form-contacts__label">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="3" class="form-contacts__input"
+                        placeholder="Your Message"></textarea>
+                    <a href="#" class="form-contacts__button">SUBMIT</a>
+
+                </form>
+
+            </div>
+
+
+
+            <div class="map-img">
             </div>
         </div>
         <?php   
